@@ -1,0 +1,15 @@
+stdout: 
+- It stands for standard output.
+- It is used to text output of any command you type in the terminal.
+- Then the output is stored in the stdout stream.
+- File discriptor : 1
+# Standard Output (stdout) by default, echo sends its output to stdout.
+echo "This is standard output"
+
+stderr: 
+- It stands for standard error.
+- It is invoked whenever a command faces an error.
+- Then the error message gets stored in this data stream.
+- File discriptor : 2
+# Standard Error (stderr): To send output to stderr, you use the redirection operator >&2.
+echo "This is an error message" >&2
